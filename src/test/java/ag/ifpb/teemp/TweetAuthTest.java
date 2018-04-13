@@ -1,10 +1,6 @@
 package ag.ifpb.teemp;
 
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
-
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.client.Entity;
@@ -37,8 +33,5 @@ public class TweetAuthTest {
         System.out.println("readObject = " + oauth_token);
        
         System.out.println("https://api.twitter.com/oauth/authenticate?" + oauth_token);
-        //response.sendRedirect("https://api.twitter.com/oauth/authenticate?" + oauth_token);
-        //
-        //http://localhost:8080/ProjetoTwitter/twitter?oauth_token=5EFfGgAAAAAA5dHBAAABYsB-raY&oauth_verifier=hrCm3AjprO4w6WPfDdAdRh8FgE3FOsaV
 	}
 }
